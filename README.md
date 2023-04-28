@@ -50,8 +50,22 @@ Model prediction Predicting mobile price range using supervised Machine learning
 
 I used some ML models which is very helpful in predicting classification algorithm ex. KNN, SVM, and GuassianNB.
 
-Conclusion :
+
 
 Here I did EDA first in which I checked the correlation and plotted some graphs using matplotlib. And then applied some of the needed algorithms which are Gaussian Naive Bayes, K Nearest Neighbors, and Support Vector Machine.
 
-By usin
+**Conclusion**
+
+1.From EDA we can see that here are mobile phones in 4 price ranges. The number of elements is almost similar.
+
+2.half the devices have Bluetooth, and half don’t
+
+3.there is a gradual increase in battery as the price range increases
+
+4.Ram has continuous increase with price range while moving from Low cost to Very high cost
+
+5.costly phones are lighter
+
+6.RAM, battery power, pixels played more significant role in deciding the price range of mobile phone
+
+7.After using many classification techniques we get to know that the K-nearest neighbors and Support Vector Machine gives us the good accuracy.
